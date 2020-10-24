@@ -30,7 +30,7 @@ def lipa_na_mpesa_base_function():
         "PartyB": constants.business_short_code,#busiss paybill or buy goods number
         "PhoneNumber": constants.phone_making_payment,#client phone number or phone number sending the money
         "CallBackURL": "https://intelcx.com",
-        "AccountReference": "SCII/02138/2016",#client identifier e.g account number
+        "AccountReference": "account-number",#client identifier e.g account number
         "TransactionDesc": "IntelCx Course Payments"#what is being paid for
     }
 
